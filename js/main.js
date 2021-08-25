@@ -11,3 +11,9 @@ $(function(){
 $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
+
+
+AOS.init({
+easing: 'ease-out-back',
+duration: 1000
+});

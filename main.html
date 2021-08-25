@@ -18,6 +18,10 @@
     <script src="https://cdn.rawgit.com/mladenplavsic/bootstrap-navbar-sidebar/3bd282bd/docs/docs.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
+    <!--aos-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+
     <!-- font awsome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
@@ -38,21 +42,21 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <img src="img/atlet.jpg" style="border-radius:50%; height:200px; width:200px; padding: 20px;" class="img-fluid" id="profile">
-            <p class="navbar-brand" style="margin: auto; font-size: 25px;">Neža</p>
+            <p class="navbar-brand" style="margin: auto; font-size: 25px; padding-left: 30px;">Neža Dolenc</p>
+            
           </div>
           <div id="navbar" class="navbar-collapse collapse"> 
             
-            <ul class="nav navbar-nav colorPop">
+            <ul class="nav navbar-nav colorPop" id="nav">
             
-              <li><a href="#about">Znanja</a></li>
-              <li><a href="#delovne_izkusnje">Delovne izkušnje</a></li>
-              <li><a href="#izobrazba">Izobrazba</a></li>
               <li><a href="#about">O meni</a></li>
-              <li><a href="Custom/cv_Krauthaker.pdf" target="_blank" rel="noopener noreferrer">Moj CV</a></li> 
-
+              <li><a href="#rezultati">Moji rezultati</a></li>
+              <li><a href="#cilji">Cilji</a></li>
+              <li><a href="#sponzorji">Sponzorji</a></li>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Word</a></li> 
+                   
             </ul>
-            
+
           </div>
         </div>
       </nav> 
@@ -61,31 +65,129 @@
       <section id="about">
           <div class="containter">
             <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <p>stuff</p>
+                <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" data-aos="fade-down" id="start">
+                  <h1 style="margin:auto; text-align: center;" >O meni</h1>
                 </div>
-                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                    <p>another</p>
+                
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <img src="img/atlet.jpg" style="border-radius:50%; height:70%; width:70%; padding: 20px;" class="img-fluid center-block" >
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="about-me" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <p class="text-custom">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                </div>
+
+              </div>
+              <div clas="row">
+                  <div id='contact-info'>
+                      <div class='links'>
+                        <a href='#' class='orange-border' target='_blank'>
+                          <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                  <i class="fab fa-instagram"></i>
+                                </span>
+                          </div>
+                        </a>
+                        <a href='#' class='orange-border' target='_blank'>
+                          <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                  <i class="fab fa-facebook-f"></i>
+                                </span>
+                          </div>
+                        </a>
+                        <a href='#' class='orange-border' target='_blank'>
+                          <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                  <i class="fab fa-google"></i>
+                                </span>
+                          </div>
+                        </a>
+                        
+                      </div>
+                  </div>
               </div>
           </div>
           
             
       </section>
 
+      <!--section rezultati-->
+      <section id="rezultati">
+          <div class="containter">
+            <div class="row">
+                <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" data-aos="fade-down" id="start">
+                  <h1 style="margin:auto; text-align: center;" >Rezultati</h1>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <img src="img/atlet.jpg" style="border-radius:50%; height:70%; width:70%; padding: 20px;" class="img-fluid center-block" >
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="about-me" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <p class="text-custom">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                </div>
 
-      <section id="delovne_izkusnje">
-        
+              </div>
+              
+          </div>
+          
+            
       </section>
 
 
-      <section id="izobrazba">
-        
+      <!--section cilji-->
+      <section id="cilji">
+          <div class="containter">
+            <div class="row">
+                <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" data-aos="fade-down" id="start">
+                  <h1 style="margin:auto; text-align: center;" >Cilji</h1>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <img src="img/atlet.jpg" style="border-radius:50%; height:70%; width:70%; padding: 20px;" class="img-fluid center-block" >
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="about-me" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <p class="text-custom">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                </div>
+
+              </div>
+              
+          </div>
+          
+            
       </section>
 
-      <section id="#">
-        
 
+      <!--section sponzorji-->
+      <section id="sponzorji">
+          <div class="containter">
+            <div class="row">
+                <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" data-aos="fade-down" id="start">
+                  <h1 style="margin:auto; text-align: center;" >Sponzorji</h1>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <img src="img/atlet.jpg" style="border-radius:50%; height:70%; width:70%; padding: 20px;" class="img-fluid center-block" >
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" id="about-me" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <p class="text-custom">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                </div>
+
+              </div>
+              
+          </div>
+          
+            
       </section>
 
 
