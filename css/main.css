@@ -23,7 +23,9 @@ html, body {
     overflow-x: hidden;
 }
 
-
+section{
+  height: 100vh;
+}
 
 h1{
     color:  #E32c5a;
